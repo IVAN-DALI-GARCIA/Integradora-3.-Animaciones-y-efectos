@@ -1,0 +1,36 @@
+/* General */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+/* Input Forms*/
+input[type="text"], input[type="password"]{
+  outline: none;
+  padding: 20px;
+  display: block;
+  width: 300px;
+  border-radius: 3px;
+  border: 1px solid #eee;
+  margin: 20px auto;
+}
+
+/* Header */
+
+header {
+  max-width: 1300px;
+  margin: 20px auto;
+  width: 95%;
+  background-color: #0098cb;
+  background: url(../../images/recetas-para-cuaresma.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  box-sizing: border-box;
+  padding-top: 5px;
+}
+
+
+

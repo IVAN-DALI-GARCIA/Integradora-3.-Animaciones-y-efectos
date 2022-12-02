@@ -1,0 +1,367 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  background: rgb(255, 255, 255);
+  max-width: 1300px;
+  margin: 20px auto;
+  width: 95%;
+}
+
+
+.logo {
+  width: 150px;
+  margin-left: 4%;
+}
+
+.caja_logo {
+  background: rgb(255, 253, 253, 0.8);
+  width: 150px;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 10%;
+}
+.caja_logo2 {
+  background: rgba(250, 250, 250, 0.7);
+  border-radius: 100%;
+  width: 270px;
+  height: 270px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.caja_logo2 img{
+  width: 250px;
+  height: 250px; 
+}
+.descripcion{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.descripcion1{
+  background: rgba(250, 250, 250, 0.7);
+}
+.validacion{
+  width: 100px;
+}
+
+
+header h1 {
+  padding-left: 25px;
+  padding-top: 5px;
+  background: rgba(255, 255, 255, 0.5);
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 10px;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+header p {
+  padding-left: 25px;
+  padding-top: 5px;
+  margin-bottom: 5px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+ul,
+ul {
+  list-style: none;
+}
+
+nav {
+  width: 98%;
+  margin: 10px auto;
+  max-width: 1300px;
+  overflow: hidden;
+  border-radius: 4px;
+  border-bottom: 1px solid #555;
+  margin-bottom: 2px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f9bdf1+0,f4cbed+50,f4d0ee+51,fcb5f3+100 */
+  background: #f9bdf1;
+  /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #f9bdf1 0%,
+    #f4cbed 50%,
+    #f4d0ee 51%,
+    #fcb5f3 100%
+  );
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #f9bdf1 0%,
+    #f4cbed 50%,
+    #f4d0ee 51%,
+    #fcb5f3 100%
+  );
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #f9bdf1 0%,
+    #f4cbed 50%,
+    #f4d0ee 51%,
+    #fcb5f3 100%
+  );
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f9bdf1', endColorstr='#fcb5f3', GradientType=0);
+  /* IE6-9 */
+}
+
+.menu {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  float: left;
+}
+
+.menu li {
+  display: table-cell;
+  overflow: hidden;
+  width: 100%;
+  border-radius: 1px solid #5c5c5c;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.menu li:first-child {
+  border-left: none;
+}
+
+.menu li:first-child:hover {
+  border-left: none;
+}
+
+.menu li a {
+  color: black;
+  display: block;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 17px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+.menu li:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-bottom: none;
+}
+
+.menu li:active {
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+.icon-home,
+.icon-spoon-knife,
+.icon-mug,
+.icon-envelop,
+.icon-user-tie,
+.icon-cogs {
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  padding-right: 5px;
+}
+
+
+.main .contacto {
+  border-radius: 15px;
+  background: #f7b2ec;
+  /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #f7b2ec 0%,
+    #f2d0ec 47%,
+    #f2d2ec 54%,
+    #fcb5f3 100%
+  );
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #f7b2ec 0%,
+    #f2d0ec 47%,
+    #f2d2ec 54%,
+    #fcb5f3 100%
+  );
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #f7b2ec 0%,
+    #f2d0ec 47%,
+    #f2d2ec 54%,
+    #fcb5f3 100%
+  );
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f7b2ec', endColorstr='#fcb5f3', GradientType=0);
+  /* IE6-9 */
+}
+
+.main p {
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.main p a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: black;
+  padding-left: 20px;
+}
+
+.registro {
+  background-image: url(imagenes/saludable.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  font-family: sans-serif;
+  margin-top: 10px;
+  border-radius: 15px;
+}
+
+.regform {
+  max-width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  margin: auto;
+  color: #ffffff;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  border-radius: 15px 15px 0px 0px;
+  margin-bottom: 25px;
+}
+
+.main2 {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url(../../images/italian-cuisine-2378729_960_720.jpg);
+  max-width: 70%;
+  margin: auto;
+  border-radius: 15px 15px 0px 0px;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+
+
+/* ---- -------------------------------------------------------------------------------------- ---- */
+
+.areaTexto {
+  position: relative;
+  left: 200px;
+  top: -37px;
+  width: 70%;
+  border-radius: 6px;
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 800;
+  font-size: 20px;
+  color: #555;
+  resize: none;
+  outline: none;
+}
+
+.btn1 {
+  background-color: #000000;
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+  text-align: center;
+  border-radius: 12px;
+  border: 4px solid #366473;
+  padding: 14px 110px;
+  outline: none;
+  color: rgb(250, 250, 250);
+  cursor: pointer;
+  transition: 0.025px;
+  font-size: 20px;
+}
+.contenedor-botones {
+  float: right;
+  width: 18%;
+  height: 50px;
+}
+.btn2 {
+  background-color: #000000;
+  display: block;
+  margin: auto;
+  text-align: center;
+  border-radius: 12px;
+  border: 4px solid #366473;
+  outline: none;
+  color: rgb(250, 250, 250);
+  cursor: pointer;
+  transition: 0.025px;
+  font-size: 30px;
+  font-weight: 800;
+  width: 50px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.boton1 span i {
+  color: #f2d0ec;
+}
+
+button:hover {
+  background-color: #5390f5;
+  color: black;
+  transition: 0.3s none all;
+  border: 4px solid #000000;
+  box-shadow: 3px 0px 30px rgba(163, 163, 163, 1);
+}
+
+
+/* ---- en esta parte de aca se da estilos al footer  ---- */
+footer {
+  background: rgb(216, 215, 215);
+  height: auto;
+  margin-bottom: 25px;
+  max-width: 1300px;
+  margin: auto;
+  padding-top: 10px;
+  overflow: auto;
+}
+
+footer .piePagina {
+  float: left;
+  width: 30%;
+  margin-left: 18px;
+  margin-top: 15px;
+}
+footer .piePagina2 {  
+  float: right;
+  width: 60%;
+  margin-left: 18px;
+  margin-top: 15px;
+}
+
+footer .piePagina p {
+  font-size: 10px;
+  color: rgb(85, 85, 85);
+  padding-top: 8px;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+.flecha {
+  width: 200px;
+  margin: auto;
+  margin-left: 270px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.respuesta {
+  width: 500px;
+}
